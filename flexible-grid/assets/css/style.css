@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+        .cf { zoom: 1; }
+        .cf:before, .cf:after { 
+          content: ""; display: table; 
+        }
+        .cf:after { clear: both; }
+        
+
+        
+.container {
+  width:956px;
+  background-image:url("../img/grid-3.png");
+  margin:30px auto;
+  border:1px solid black;
+}
+
+header.primary{
+ width:906px;
+  background:orange;
+  margin:30px;
+  padding:20px;
+  float:left;
+}
+
+#content {
+  width: 584px;
+  background:gold;
+  margin-left:20px;
+  padding:20px;
+  float:left;
+  
+}
+
+aside{
+  width:272px;
+  background:maroon;
+  margin-left:20px;
+  padding:20px;
+  float:left; 
+}
+
+footer.primary{
+  width:906px;
+  background:orange;
+  margin:30px;
+  padding:20px;
+  float:left;
+}
